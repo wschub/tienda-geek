@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../ProductsComponent/styleProducts/GridLayoutProductsComponent.css'
+//import '../ProductsComponent/styleProducts/GridLayoutProductsComponent.css'
 import 'font-awesome/css/font-awesome.min.css';
 
 
