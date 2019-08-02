@@ -1,0 +1,48 @@
+.prod_det_art_relacionados{
+    width: 250px;
+    margin-top:40px; 
+}
+
+.prdo_det_alert{
+    font-size: 18px;
+    background-color: #F1C40F;
+    width: 35%;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius:150px;
+}
+
+.prod_det_card_body{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.prod_det_img{
+    align-items: center;
+    justify-content: center;
+    padding-left:25px ;
+    width: 240px;
+}
+
+
+.ec-stars-wrapper {
+	font-size: "";
+	display: inline-block;
+}
+
+.ec-stars-wrapper a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;
+	color: rgb(197, 171, 22);
+}
+
+.ec-stars-wrapper:hover a {
+    
+	color: rgb(211, 194, 42);
+}
+
+
+.ec-stars-wrapper > a:hover ~ a {
+	color: #888;
+}
