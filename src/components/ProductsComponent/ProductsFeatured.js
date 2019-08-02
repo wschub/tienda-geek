@@ -37,9 +37,9 @@ class Product extends React.Component {
                     
                 </div>
                 <div className="product_content">
-                    <h3 className="title"><a href="#">Men's Blazer</a></h3>
+                    <h3 className="title"><a href="#">Sillon Verde</a></h3>
                     <div className="price">
-                        $63.50
+                        $50.50
                         <span>$75.00</span>
                     </div>
                     <ul className="product_rating">
@@ -65,9 +65,9 @@ class Product extends React.Component {
                     
                 </div>
                 <div className="product_content">
-                    <h3 className="title"><a href="#">Men's Blazer</a></h3>
+                    <h3 className="title"><a href="#">Sillon Cómodo beige</a></h3>
                     <div className="price">
-                        $63.50
+                        $70.99
                         <span>$75.00</span>
                     </div>
                     <ul className="product_rating">
@@ -93,7 +93,7 @@ class Product extends React.Component {
                     
                 </div>
                 <div className="product_content">
-                    <h3 className="title"><a href="#">Men's Blazer</a></h3>
+                    <h3 className="title"><a href="#">Silla PC</a></h3>
                     <div className="price">
                         $63.50
                         <span>$75.00</span>
@@ -121,9 +121,9 @@ class Product extends React.Component {
                     
                 </div>
                 <div className="product_content">
-                    <h3 className="title"><a href="#">Men's Blazer</a></h3>
+                    <h3 className="title"><a href="#">Silla de madera</a></h3>
                     <div className="price">
-                        $63.50
+                        $70.44
                         <span>$75.00</span>
                     </div>
                     <ul className="product_rating">
@@ -149,7 +149,7 @@ class Product extends React.Component {
                     
                 </div>
                 <div className="product_content">
-                    <h3 className="title"><a href="#">Men's Blazer</a></h3>
+                    <h3 className="title"><a href="#">Cama Sofá</a></h3>
                     <div className="price">
                         $63.50
                         <span>$75.00</span>
@@ -177,7 +177,7 @@ class Product extends React.Component {
                     
                 </div>
                 <div className="product_content">
-                    <h3 className="title"><a href="#">Men's Blazer</a></h3>
+                    <h3 className="title"><a href="#">Sillón Negro</a></h3>
                     <div className="price">
                         $63.50
                         <span>$75.00</span>
@@ -205,7 +205,7 @@ class Product extends React.Component {
                     
                 </div>
                 <div className="product_content">
-                    <h3 className="title"><a href="#">Men's Blazer</a></h3>
+                    <h3 className="title"><a href="#">Silla Reclinable</a></h3>
                     <div className="price">
                         $63.50
                         <span>$75.00</span>
@@ -233,7 +233,7 @@ class Product extends React.Component {
                     
                 </div>
                 <div className="product_content">
-                    <h3 className="title"><a href="#">Men's Blazer</a></h3>
+                    <h3 className="title"><a href="#">Silla para afueras</a></h3>
                     <div className="price">
                         $63.50
                         <span>$75.00</span>
