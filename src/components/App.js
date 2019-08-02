@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../components/Partials/LayoutComponent';
+import DatosEnvio from './ShoppinCartComponent/DatosEnvioComponent';
 
 
 
@@ -7,9 +8,7 @@ import Layout from '../components/Partials/LayoutComponent';
 function App() {
   return (
   <React.Fragment>
-   <Layout> 
-     
-   </Layout>
+   <DatosEnvio/>
     
   </React.Fragment>
   )
