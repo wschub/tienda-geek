@@ -7,7 +7,7 @@ import Modal from '../components/Partials/subMenu';
 function App() {
   return (
     <React.Fragment>
-      <Modal />
+      <News />
     </React.Fragment>
   )
 }
