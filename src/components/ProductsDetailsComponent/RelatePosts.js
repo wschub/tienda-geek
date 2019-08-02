@@ -65,7 +65,7 @@ class RelatePosts extends React.Component{
                                 <div class="card prod_det_art_relacionados">
                                     <p>New</p>
                                     <div class="container prod_det_img">
-                                    <img src={Lampara} class="card-img-top" alt="..."/>
+                                    <img src={Lampara}   class="card-img-top" alt="..."/>
                                     </div>
                                     <div class="container card-body prod_det_card_body">
                                     <div class="ec-stars-wrapper">
