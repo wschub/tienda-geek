@@ -1,6 +1,6 @@
 import React from 'react'
-import '../Partials/MenuOpcionesUsuarioStyle.css'
 import { Link } from 'react-router-dom';
+import '../Partials/MenuOpcionesUsuarioStyle.css'
 
 
 class MenuUsuario extends React.Component{
