@@ -1,13 +1,13 @@
 import React from 'react';
 
-import NavBar from '../Partials/NavBarComponent';
+import MenuOpciones from '../Partials/MenuOpcionesIconosComponent';
 
 
 const Layout = (props) => {
     return(
 
     <div>      
-             <NavBar/>
+             <MenuOpciones/>
              {props.children}
         </div>
     )
