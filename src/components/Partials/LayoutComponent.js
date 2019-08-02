@@ -1,5 +1,5 @@
 import React from 'react';
-
+import ShoppingCart from '../ShoppingCartComponent/ShoppingCartComponent'
 import NavBar from '../Partials/NavBarComponent';
 
 const Layout = (props) => {
@@ -7,7 +7,9 @@ const Layout = (props) => {
 
     <div> 
              <NavBar/>
-             {props.children}
+         
+             <ShoppingCart/>
+             
         </div>
     )
     

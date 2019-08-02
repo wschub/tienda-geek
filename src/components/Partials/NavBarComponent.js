@@ -9,7 +9,7 @@ class NavBar extends Component {
                     <a className="Navbar__brand" href="/">
                         <img className='iconLogo' src={logo} width='120' alt='Images logo' />
                     </a>
-
+                    
 
 
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,9 @@ class NavBar extends Component {
 
                     </div>
                 </nav>
+                
             </header>
+            
         );
     }
 }
