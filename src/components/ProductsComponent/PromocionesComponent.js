@@ -5,7 +5,7 @@ import 'font-awesome/css/font-awesome.min.css';
 
 
 
-class GridLayoutProduct extends React.Component {
+class Promociones extends React.Component {
 
     render() {
         return (
@@ -14,40 +14,13 @@ class GridLayoutProduct extends React.Component {
     <div class="producto__destacado mb-3">
         <div class="container">
             <nav class="navbar navbar-dark bg-dark">
-                <span class="navbar-brand mb-0 h1 text-center">Productos</span>
+                <span class="navbar-brand mb-0 h1 text-center">Promociones</span>
             </nav>
         </div>
     </div>
                 
     <div className="row">
-    <div className="col-md-3 col-sm-6">
-                            <div className="product_grid">
-                                <div className="product_image">
-                                    <a href="#">
-                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/514A65Y4OjL.jpg" />
-                                    </a>
-                                    <ul className="product_social">
-                                        <li><a href="#"><i className="fa fa-shopping-bag"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-shopping-cart"></i></a></li>
-                                    </ul>
-                                    <span class="product_new_label">New</span>
-                                </div>
-                                <div className="product_content">
-                                    <h3 className="title"><a href="#">Armario corazón Vintage</a></h3>
-                                    <div className="price">
-                                        $150.00
-                        
-                                    </div>
-                                    <ul className="product_rating">
-                                        <li className="fa fa-star"></li>
-                                        <li className="fa fa-star"></li>
-                                        <li className="fa fa-star"></li>
-                                        <li className="fa fa-star"></li>
-                                        <li className="fa fa-star disable"></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+   
     <div className="col-md-3 col-sm-6">
             <div className="product_grid">
                 <div className="product_image">
@@ -73,6 +46,7 @@ class GridLayoutProduct extends React.Component {
                         <li className="fa fa-star"></li>
                         <li className="fa fa-star disable"></li>
                     </ul>
+                    <span class="product_new_label">Promoción</span>
                 </div>
             </div>
         </div>
@@ -102,6 +76,7 @@ class GridLayoutProduct extends React.Component {
                         <li className="fa fa-star"></li>
                         <li className="fa fa-star disable"></li>
                     </ul>
+                    <span class="product_new_label">Promoción</span>
                 </div>
             </div>
         </div>
@@ -131,6 +106,7 @@ class GridLayoutProduct extends React.Component {
                         <li className="fa fa-star"></li>
                         <li className="fa fa-star disable"></li>
                     </ul>
+                    <span class="product_new_label">Promoción</span>
                 </div>
             </div>
         </div>
@@ -160,6 +136,7 @@ class GridLayoutProduct extends React.Component {
                         <li className="fa fa-star"></li>
                         <li className="fa fa-star disable"></li>
                     </ul>
+                    <span class="product_new_label">Promoción</span>
                 </div>
             </div>
         </div>
@@ -189,37 +166,11 @@ class GridLayoutProduct extends React.Component {
                         <li className="fa fa-star"></li>
                         <li className="fa fa-star"></li>
                     </ul>
+                    <span class="product_new_label">Promoción</span>
                 </div>
             </div>
         </div>
-        <div className="col-md-3 col-sm-6">
-                            <div className="product_grid">
-                                <div className="product_image">
-                                    <a href="#">
-                                        <img src="https://www.velamuebles.es/wp-content/uploads/2018/04/mesilla-de-noche-estrecha-blanca-500x500.jpg" />
-                                    </a>
-                                    <ul className="product_social">
-                                        <li><a href="#"><i className="fa fa-shopping-bag"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-shopping-cart"></i></a></li>
-                                    </ul>
-                                    <span class="product_new_label">New</span>
-                                </div>
-                                <div className="product_content">
-                                    <h3 className="title"><a href="#">Nochero blanco Vintage</a></h3>
-                                    <div className="price">
-                                        $25.00
-                        
-                                    </div>
-                                    <ul className="product_rating">
-                                        <li className="fa fa-star"></li>
-                                        <li className="fa fa-star"></li>
-                                        <li className="fa fa-star"></li>
-                                        <li className="fa fa-star"></li>
-                                        <li className="fa fa-star disable"></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+        
                         <div className="col-md-3 col-sm-6">
             <div className="product_grid">
                 <div className="product_image">
@@ -245,6 +196,7 @@ class GridLayoutProduct extends React.Component {
                         <li className="fa fa-star"></li>
                         <li className="fa fa-star disable"></li>
                     </ul>
+                    <span class="product_new_label">Promoción</span>
                 </div>
             </div>
         </div>
@@ -273,66 +225,13 @@ class GridLayoutProduct extends React.Component {
                         <li className="fa fa-star"></li>
                         <li className="fa fa-star disable"></li>
                     </ul>
+                    <span class="product_new_label">Promoción</span>
                 </div>
             </div>
         </div>
-                        <div className="col-md-3 col-sm-6">
-                            <div className="product_grid">
-                                <div className="product_image">
-                                    <a href="#">
-                                        <img src="https://www.velamuebles.es/wp-content/uploads/2018/04/mesita-de-noche-vintage-3-cajones-500x500.jpg" />
-                                    </a>
-                                    <ul className="product_social">
-                                        <li><a href="#"><i className="fa fa-shopping-bag"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-shopping-cart"></i></a></li>
-                                    </ul>
-                                    <span class="product_new_label">New</span>
-                                </div>
-                                <div className="product_content">
-                                    <h3 className="title"><a href="#">Nochero tres puestos Vintage</a></h3>
-                                    <div className="price">
-                                        $90.00
                         
-                                    </div>
-                                    <ul className="product_rating">
-                                        <li className="fa fa-star"></li>
-                                        <li className="fa fa-star"></li>
-                                        <li className="fa fa-star"></li>
-                                        <li className="fa fa-star"></li>
-                                        <li className="fa fa-star disable"></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
                         
-        <div className="col-md-3 col-sm-6">
-                            <div className="product_grid">
-                                <div className="product_image">
-                                    <a href="#">
-                                        <img src="https://artikaneinspire.com/wp-content/uploads/2018/02/co%CC%81moda-vintage-muebles-vintage-500x500.jpg" />
-                                    </a>
-                                    <ul className="product_social">
-                                        <li><a href="#"><i className="fa fa-shopping-bag"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-shopping-cart"></i></a></li>
-                                    </ul>
-                                    <span class="product_new_label">New</span>
-                                </div>
-                                <div className="product_content">
-                                    <h3 className="title"><a href="#">Nochero Vintage</a></h3>
-                                    <div className="price">
-                                        $63.50
-                        
-                                    </div>
-                                    <ul className="product_rating">
-                                        <li className="fa fa-star"></li>
-                                        <li className="fa fa-star"></li>
-                                        <li className="fa fa-star"></li>
-                                        <li className="fa fa-star"></li>
-                                        <li className="fa fa-star disable"></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+        
                         <div className="col-md-3 col-sm-6">
             <div className="product_grid">
                 <div className="product_image">
@@ -358,6 +257,7 @@ class GridLayoutProduct extends React.Component {
                         <li className="fa fa-star"></li>
                         <li className="fa fa-star disable"></li>
                     </ul>
+                    <span class="product_new_label">Promoción</span>
                 </div>
             </div>
         </div>
@@ -368,4 +268,4 @@ class GridLayoutProduct extends React.Component {
                                        }
                                    }
                                     
-export default GridLayoutProduct;
+export default Promociones;
