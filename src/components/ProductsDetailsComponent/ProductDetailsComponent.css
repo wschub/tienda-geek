@@ -1,0 +1,37 @@
+.prod_det_img{
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.prod_det_p{
+    text-align: right;
+    margin-left: 6px;
+    justify-content: right
+}
+
+.prod_det_size{
+    text-align: end;
+    width: 35%;
+}
+
+.prod_det_box_1{
+    margin-top: 2px;
+    width:35% ;
+    height:75% ;
+    background:#FFFFFF;
+    border: black solid;
+    text-align: right;
+}
+
+.prod_det_box_2{
+    margin-top: 2px;
+    width:35% ;
+    height:75%;
+    background:rgb(236, 132, 197);
+}
+
+.prod_det_mt{
+    margin-top: 15px;
+}
