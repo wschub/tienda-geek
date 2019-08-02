@@ -9,10 +9,21 @@ class Product extends React.Component {
 
     render() {
         return (
-            <section class="producto__destacado">
- <div className="container">
-                <h1 className="text-center mb-3">Productos</h1>
-    <div className="row">
+                 <section class="producto__destacado">
+                <div class="producto__destacado mb-3">
+                    <div class="container">
+                    <nav class="navbar navbar-dark bg-dark">
+                          <span class="navbar-brand mb-0 h1">Articulos Destacados</span>
+                      </nav>
+                    </div>
+                    
+
+                      </div>      
+        <div className="container">
+      
+        
+       
+        <div className="row">
         <div className="col-md-3 col-sm-6">
             <div className="product_grid">
                 <div className="product_image">
