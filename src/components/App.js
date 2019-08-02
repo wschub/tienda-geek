@@ -1,15 +1,12 @@
 import React from 'react';
-import Layout from '../components/Partials/LayoutComponent';
-
+import News from '../components/ProductsComponent/ProductsNewComponent';
 
 
 
 function App() {
   return (
   <React.Fragment>
-   <Layout> 
-     
-   </Layout>
+  <News/>
     
   </React.Fragment>
   )
