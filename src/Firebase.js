@@ -5,13 +5,13 @@ import firestore from 'firebase/firestore';
 const settings = { timestampsInSnapshots: true };
 
 const config = {
-    apiKey: "AIzaSyBU-cLT5o3o8fz2NmfxWTAGyWnuThGotiU",
-    authDomain: "crud-8b7ac.firebaseapp.com",
-    databaseURL: "https://crud-8b7ac.firebaseio.com",
-    projectId: "crud-8b7ac",
-    storageBucket: "crud-8b7ac.appspot.com",
-    messagingSenderId: "282053509887",
-    appId: "1:282053509887:web:c9cc6a612980ceeb"
+    apiKey: "AIzaSyAxr7iN_mngkecm_04ay9-JXsJQefvGODA",
+    authDomain: "tienda-virtual-geek.firebaseapp.com",
+    databaseURL: "https://tienda-virtual-geek.firebaseio.com",
+    projectId: "tienda-virtual-geek",
+    storageBucket: "tienda-virtual-geek.appspot.com",
+    messagingSenderId: "1074466645250",
+    appId: "1:1074466645250:web:d7d7956c9c2d53c3"
 };
 
 firebase.initializeApp(config);

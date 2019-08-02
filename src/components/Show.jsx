@@ -13,7 +13,7 @@ class Show extends Component {
     }
 
     componentDidMount() {
-        const ref = firebase.firestore().collection('boards').doc(this.props.match.params.id);
+        const ref = firebase.firestore().collection('products').doc(this.props.match.params.id);
         ref.get().then((doc) => {
             if (doc.exists) {
                 this.setState({
@@ -28,7 +28,7 @@ class Show extends Component {
     }
 
     delete(id) {
-        firebase.firestore().collection('boards').doc(id).delete().then(() => {
+        firebase.firestore().collection('products').doc(id).delete().then(() => {
             console.log("Document successfully deleted!");
             this.props.history.push("/")
         }).catch((error) => {
@@ -50,8 +50,8 @@ class Show extends Component {
                         <dl>
                             <dt>Description:</dt>
                             <dd>{this.state.board.description}</dd>
-                            <dt>Author:</dt>
-                            <dd>{this.state.board.author}</dd>
+                            <dt>Tipo:</dt>
+                            <dd>{this.state.board.tipo}</dd>
                         </dl>
                         <Link to={`/edit/${this.state.key}`} className="btn btn-success">Edit</Link>&nbsp;
             <button onClick={this.delete.bind(this, this.state.key)} className="btn btn-danger">Delete</button>

@@ -6,7 +6,7 @@ import firebase from './Firebase';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.ref = firebase.firestore().collection('boards');
+    this.ref = firebase.firestore().collection('products');
     this.unsubscribe = null;
     this.state = {
       boards: []
@@ -16,13 +16,13 @@ class App extends Component {
   onCollectionUpdate = (querySnapshot) => {
     const boards = [];
     querySnapshot.forEach((doc) => {
-      const { title, description, author } = doc.data();
+      const { title, description, tipo } = doc.data();
       boards.push({
         key: doc.id,
         doc, // DocumentSnapshot
         title,
         description,
-        author,
+        tipo,
       });
     });
     this.setState({
@@ -50,7 +50,7 @@ class App extends Component {
                 <tr>
                   <th>Title</th>
                   <th>Description</th>
-                  <th>Author</th>
+                  <th>Tipo</th>
                 </tr>
               </thead>
               <tbody>
@@ -58,7 +58,7 @@ class App extends Component {
                   <tr>
                     <td><Link to={`/show/${board.key}`}>{board.title}</Link></td>
                     <td>{board.description}</td>
-                    <td>{board.author}</td>
+                    <td>{board.tipo}</td>
                   </tr>
                 )}
               </tbody>

@@ -6,11 +6,17 @@ class Create extends Component {
 
     constructor() {
         super();
-        this.ref = firebase.firestore().collection('boards');
+        this.ref = firebase.firestore().collection('products');
         this.state = {
             title: '',
             description: '',
-            author: ''
+            foto: '',
+            talla: ['s', 'm', 'l', 'xl'],
+            color: ['amarillo', 'azul', 'rojo'],
+            tipo: 'formal',
+            destacados: false,
+            novedades: false,
+            promociones: false,
         };
     }
     onChange = (e) => {
@@ -22,17 +28,21 @@ class Create extends Component {
     onSubmit = (e) => {
         e.preventDefault();
 
-        const { title, description, author } = this.state;
+        const { title, description, foto, talla, color, tipo, destacados, novedades, promociones } = this.state;
 
         this.ref.add({
-            title,
-            description,
-            author
+            title, description, foto, talla, color, tipo, destacados, novedades, promociones
         }).then((docRef) => {
             this.setState({
                 title: '',
                 description: '',
-                author: ''
+                foto: '',
+                talla: ['s,m,l,xl'],
+                color: ['amarillo, azul, rojo'],
+                tipo: 'formal',
+                destacados: false,
+                novedades: false,
+                promociones: false,
             });
             this.props.history.push("/")
         })
@@ -42,30 +52,40 @@ class Create extends Component {
     }
 
     render() {
-        const { title, description, author } = this.state;
+        const { title, description, foto, tipo } = this.state;
+
         return (
             <div className="container">
                 <div className="panel panel-default">
                     <div className="panel-heading">
                         <h3 className="panel-title">
-                            ADD BOARD
+                            cargar zapato
             </h3>
                     </div>
                     <div className="panel-body">
                         <h4><Link to="/" className="btn btn-primary">Book List</Link></h4>
                         <form onSubmit={this.onSubmit}>
                             <div className="form-group">
-                                <label htmlFor="title">Title:</label>
+                                <label for="title">Title:</label>
                                 <input type="text" className="form-control" name="title" value={title} onChange={this.onChange} placeholder="Title" />
                             </div>
                             <div className="form-group">
-                                <label htmlFor="description">Description:</label>
+                                <label for="description">Description:</label>
                                 <textArea className="form-control" name="description" onChange={this.onChange} placeholder="Description" cols="80" rows="3">{description}</textArea>
                             </div>
+
                             <div className="form-group">
-                                <label htmlFor="author">Author:</label>
-                                <input type="text" className="form-control" name="author" value={author} onChange={this.onChange} placeholder="Author" />
+                                <label for="foto">Foto:</label>
+                                <input type="text" className="form-control" name="foto" value={foto} onChange={this.onChange} placeholder="Foto" />
                             </div>
+
+                            <div className="form-group">
+                                <label for="foto">Tipo:</label>
+                                <input type="text" className="form-control" name="tipo" value={tipo} onChange={this.onChange} placeholder="Tipo" />
+                            </div>
+
+
+
                             <button type="submit" className="btn btn-success">Submit</button>
                         </form>
                     </div>
