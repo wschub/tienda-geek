@@ -11,13 +11,13 @@ class Product extends React.Component {
         return (
         <article>
             <div class="producto__destacado mb-3">
-                    <div class="container">
+                  
                     <nav class="navbar navbar-dark bg-dark">
                           <span class="navbar-brand mb-0 h1">Articulos Destacados</span>
                       </nav>
                     </div>
                 
-                      </div>   
+            
             <div class="row">    
         {
             this.props.products.map(product =>{
@@ -40,7 +40,7 @@ class Product extends React.Component {
                         <h3 className="title"><a href="#">{product.titulo}</a></h3>
                         <div className="price">
                             {product.precio}
-                            <br/>
+                           
                             <span>{product.descuento}</span>
                         </div>
                      
