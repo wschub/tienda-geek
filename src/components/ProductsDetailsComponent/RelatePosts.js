@@ -24,7 +24,7 @@ class RelatePosts extends React.Component{
                 </div>
                 <div>
                     <div className="row">
-                        <div className="col-3">
+                        <div className="col-md-6 col-lg-3">
                             <div className="card prod_det_art_relacionados">
                             <p>New</p>
                             <div className="container prod_det_img">
@@ -47,7 +47,7 @@ class RelatePosts extends React.Component{
                             </div>
                             </div>
                         </div>
-                        <div className="col-3">
+                        <div className="col-md-6 col-lg-3">
                             <div className="card prod_det_art_relacionados">
                                 <p>New</p>
                                 <div className="container prod_det_img">
@@ -71,7 +71,7 @@ class RelatePosts extends React.Component{
                                 </div>
                             </div>
                         </div>
-                        <div className="col-3">
+                        <div className="col-md-6 col-lg-3">
                             <div className="card prod_det_art_relacionados">
                                 <p>New</p>
                                 <div className="container prod_det_img">
