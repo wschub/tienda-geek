@@ -1,11 +1,11 @@
 import React from 'react';
-import Product from './components/ProductsComponent/ProductsFeatured';
+import ProductList from './components/ProductsComponent/ProductListComponent';
 
 
 function App() {
   return (
   <React.Fragment>
-    <Product/> 
+    <ProductList/> 
   </React.Fragment>
   )
 }

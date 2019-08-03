@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Productstyle.css';
 
-import Product from './ProductsComponent';
+import Product from './ProductsFeatured';
 
 
 class ProductList extends React.Component {
@@ -34,18 +34,54 @@ class ProductList extends React.Component {
             this.setState({
                 data:[
                     {
-                        "url": "https://www.menzzo.es/19541-thickbox_default/sillon-vidal-1-plaza-terciopelo-verde.jpghttps://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201906/07/00112802101241____9__640x640.jpg"
+                        "url": "https://www.menzzo.es/19541-thickbox_default/sillon-vidal-1-plaza-terciopelo-verde.jpghttps://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201906/07/00112802101241____9__640x640.jpg",
+                        "titulo":"Sillon verde de sala",
+                        "precio":"$70.99",
+                        "descuento":"75.00"
                     },
                     {
-                       "url":"https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201906/07/00112802101241____9__640x640.jpg"
+                       "url":"https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201906/07/00112802101241____9__640x640.jpg",
+                       "titulo":"Sillon beige",
+                        "precio":"$80.99",
+                        "descuento":"120.00"
                     },
                     {
-                        "url":"https://papeleriasegarra.com/wp-content/uploads/2018/04/071-img-papeleria-segarra-muebles-oficina-silla-oficina-rojo.jpg"
+                        "url":"https://papeleriasegarra.com/wp-content/uploads/2018/04/071-img-papeleria-segarra-muebles-oficina-silla-oficina-rojo.jpg",
+                        "titulo":"Silla de escritorio",
+                        "precio":"$40.99",
+                        "descuento":"60.00"
+                    },
+                    {
+                        "url":"https://rosen.vteximg.com.br/arquivos/ids/201319-830-830/Sillon-1-Cuerpo-Adele-Tela-Grafito-1-3670.jpg?v=636816078306870000",
+                        "titulo":"Mueble de sala",
+                        "precio":"$100",
+                        "descuento":"120.00"
+                    },
+                    {
+                        "url":"https://tugocolombia.vteximg.com.br/arquivos/ids/187399-1000-1000/105852-1.jpg?v=636637986259400000",
+                        "titulo":"Silla de madera",
+                        "precio":"$15.99"
+                    },
+                    {
+                        "url":"https://famsa_imagenes2.storage.googleapis.com/243571024QUADRO.1.VPCAF.jpg",
+                        "titulo":"Mueble negro",
+                        "precio":"$63.99",
+                        "descuento":"75.00"
+                    }, {
+                        "url":"https://cdn.shopify.com/s/files/1/0743/4993/products/Bellow_Sillon_individual_de_Vinipiel_-_Amarillo_Canario_2_1024x1024.png?v=1549586058",
+                        "titulo":"Silla para exteriores",
+                        "precio":"$40.99",
+                        "descuento":"60.00"
+                    },
+                    {
+                        "url":"https://www.vicalhome.com/2013965-thickbox_default/sillon.jpg",
+                        "titulo":"mueble",
+                        "precio":"$30.99"
                     }
                    
                 ]
             })
-        }, 1000);
+        });
 
     }
 
@@ -86,18 +122,13 @@ class ProductList extends React.Component {
         console.log('2/4. render()');
         return ( 
                    
-                        <div>
-                            <div class="container">
-
-                            <div class="row">
-
-                            <div class="col-md-3 col-sm-6">
-                            <Product products={this.state.data} />
-
-                            </div>
-         </div>
-        </div>
-                        </div>
+        <div>
+            <div class="container">
+                
+                        <Product products={this.state.data} />
+                    </div>
+                </div>
+            
                    
         );
     }
