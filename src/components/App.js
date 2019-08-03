@@ -1,12 +1,11 @@
 import React from 'react';
 import Layout from '../components/Partials/LayoutComponent';
+import MenuOpciones from './Partials/MenuOpcionesComponent';
 
 function App() {
   return (
   <React.Fragment>
-   <Layout> 
-    
-   </Layout>
+   <MenuOpciones/>
     
   </React.Fragment>
   )
