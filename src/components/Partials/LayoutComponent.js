@@ -1,14 +1,20 @@
 import React from 'react';
 
-import NavBar from '../Partials/NavBarComponent';
+import NavBar from './HeaderComponent';
+import Product from '../ProductsComponent/ProductsFeatured';
+
+
 
 const Layout = (props) => {
     return(
 
-    <div> 
+        <div> 
              <NavBar/>
              {props.children}
+             <Product/>
+             
         </div>
+        
     )
     
 }
