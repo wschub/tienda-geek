@@ -3,7 +3,8 @@ import React from 'react';
 import NavBar from './HeaderComponent';
 import Product from '../ProductsComponent/ProductsFeatured';
 import RelatePosts from '../ProductsDetailsComponent/RelatePosts';
-import FiltrarProductos from '../ProductsComponent/FiltrarProductosComponent'
+import FiltrarProductos from '../ProductsComponent/FiltrarProductosComponent';
+import Footer from './FooterComponent'
 
 
 
@@ -14,13 +15,14 @@ const Layout = (props) => {
              <NavBar/>
              
              {props.children}
-             <FiltrarProductos/>
+             
              <Product/>
              
+ 
              
              <RelatePosts/>
-             
-             
+
+             <Footer/>
         </div>
         
     )
