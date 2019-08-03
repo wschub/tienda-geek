@@ -1,17 +1,21 @@
 import React from 'react';
 import Layout from '../components/Partials/LayoutComponent';
+import { BrowserRouter, Switch } from 'react-router-dom';
+import Footer from './FolderFooterComponent/FooterComponent';
 
 
 
 
 function App() {
   return (
-  <React.Fragment>
-   <Layout> 
-     
-   </Layout>
-    
-  </React.Fragment>
+    <BrowserRouter>     
+    <Layout>
+        <Switch>
+            <Footer/>
+            
+        </Switch> 
+    </Layout>          
+</BrowserRouter>
   )
 }
 
