@@ -33,11 +33,11 @@ class MenuOpciones extends React.Component {
                             Productos
         </a>
                         <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <button type="button" value="formal" onClick={this.handleClic}>
+                            <button className='btn btn-outline' type="button" value="formal" onClick={this.handleClic}>
                                 Formal </button>
-                            <button type="button" value="casual" onClick={this.handleClic}>
+                            <button className='btn btn-outline' type="button" value="casual" onClick={this.handleClic}>
                                 Casual </button>
-                            <button type="button" value="deportivo" onClick={this.handleClic}>
+                            <button className='btn btn-outline' type="button" value="deportivo" onClick={this.handleClic}>
                                 Deportivo </button>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ class MenuOpciones extends React.Component {
                         <Product
                             foto={producto.foto}
                             title={producto.title}
-                            price='45000'
+                            price={producto.precio}
                         />
                     )
                 }
@@ -60,5 +60,3 @@ class MenuOpciones extends React.Component {
 }
 
 export default MenuOpciones;
-
-
