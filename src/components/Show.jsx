@@ -13,18 +13,8 @@ class Show extends Component {
     }
 
     componentDidMount() {
-        const ref = firebase.firestore().collection('products').doc(this.props.match.params.id);
-        ref.get().then((doc) => {
-            if (doc.exists) {
-                this.setState({
-                    board: doc.data(),
-                    key: doc.id,
-                    isLoading: false
-                });
-            } else {
-                console.log("No such document!");
-            }
-        });
+
+
     }
 
     delete(id) {
