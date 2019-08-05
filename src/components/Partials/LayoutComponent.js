@@ -1,12 +1,11 @@
 import React from 'react';
-
 import NavBar from '../Partials/NavBarComponent';
 
 const Layout = (props) => {
     return(
 
     <div> 
-             <NavBar/>
+             <NavBar />
              {props.children}
         </div>
     )

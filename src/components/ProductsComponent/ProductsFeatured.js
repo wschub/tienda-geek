@@ -8,7 +8,7 @@ class Product extends React.Component {
         const {
             foto, title, price  } = this.props
         return (
-            <div class="col-md-3 col-sm-6">
+            <div className="col-md-3 col-sm-6">
                 <div className="product_grid">
                     <div className="product_image">
                         <a href="#">

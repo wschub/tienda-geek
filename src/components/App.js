@@ -1,12 +1,16 @@
 import React from 'react';
 import Layout from '../components/Partials/LayoutComponent';
-import MenuOpciones from './Partials/MenuOpcionesComponent';
+
+import SideBar from './SidebarComponent/SideBarComponent';
+
 
 function App() {
   return (
   <React.Fragment>
-   <MenuOpciones/>
+    <Layout> 
+     <SideBar />
     
+   </Layout>    
   </React.Fragment>
   )
 }
